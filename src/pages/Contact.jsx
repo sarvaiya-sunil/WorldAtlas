@@ -16,7 +16,7 @@ const Contact = () => {
             type="text"
             className="form-control"
             required
-            autoComplete="false"
+            autoComplete="off"
             placeholder="Enter your name"
             name="username"
           />
@@ -26,7 +26,7 @@ const Contact = () => {
             placeholder="Enter your email"
             name="email"
             required
-            autoComplete="false"
+            autoComplete="off"
           />
           <textarea
             className="form-control"
@@ -34,7 +34,7 @@ const Contact = () => {
             name="message"
             placeholder="Enter your message"
             required
-            autoComplete="false"
+            autoComplete="off"
           ></textarea>
           <button type="submit" value="send">
             Send

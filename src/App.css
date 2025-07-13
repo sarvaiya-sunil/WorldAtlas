@@ -462,6 +462,8 @@ country Card
     color: rgba(255, 255, 255, 0.8);
     border: 0.05rem solid #fff;
     background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    border-radius: 1.5rem;
+    padding: 0.6rem 1.2rem;
   }
 
   & .select-section {
