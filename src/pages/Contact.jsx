@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   const handleFormSubmit = (formData) => {
-    //console.log(formData.entries()); // This method returns an iterator of key/value pairs from thr form data. -> iterator is an array
+    //console.log(formData.entries()); // This method returns an iterator of key/value pairs from the form data. -> iterator is an array
     const formInputData = Object.fromEntries(formData.entries()); // Convert the iterator to an object. -> convert from array to an plain object
     //console.log(formInputData);
   };

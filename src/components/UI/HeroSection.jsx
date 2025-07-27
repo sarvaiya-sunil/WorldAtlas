@@ -19,7 +19,7 @@ const HeroSection = () => {
         </div>
         <div className="hero-image">
           <img
-            src="/images/world.png"
+            src="/images/world1.png"
             alt="world beauty"
             className="banner-image"
           />
@@ -28,5 +28,7 @@ const HeroSection = () => {
     </main>
   );
 };
+
+//--https://media.sketchfab.com/models/3684eb40fb7e42208089874e6286b9e9/thumbnails/8ff5e88803154f1f9743a9665f811a12/7f5257bc32eb45b0a9c8b2600887f5e1.jpeg
 
 export default HeroSection;

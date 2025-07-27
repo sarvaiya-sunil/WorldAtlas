@@ -129,6 +129,16 @@ nav ul {
   }
 }
 
+.Logo h1 {
+  background: linear-gradient(to bottom, #379683, #ffc300);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3.4rem;
+  font-weight: 900;
+  letter-spacing: 0.2rem;
+  color: #fff;
+}
+
 .ham-menu {
   display: none;
 }
@@ -196,6 +206,8 @@ nav ul {
 
 .container .banner-image {
   width: 100%;
+  border: 2px solid green;
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 990px) {
@@ -222,6 +234,9 @@ nav ul {
 }
 
 @media screen and (max-width: 991px) {
+  .section-about {
+    padding: 20px;
+  }
   .gradient-cards {
     grid-template-columns: 1fr;
   }
@@ -441,6 +456,12 @@ country Card
   }
 }
 
+@media screen and (max-width: 991px) {
+  .country-section {
+    padding: 20px;
+  }
+}
+
 .section-searchFilter {
   width: 100%;
   display: flex;
@@ -505,6 +526,15 @@ country Card
   color: rgba(255, 255, 255, 0.5);
 }
 
+@media screen and (max-width: 1320px) {
+  .section-searchFilter {
+    flex-direction: column;
+  }
+  .select-section {
+    margin-top: 15px;
+  }
+}
+
 /* ------------------ 
 contact us page 
 --------------- */
@@ -544,8 +574,12 @@ contact us page
     }
   }
 }
-
-/* ----------------
+@media screen and (max-width: 980px) {
+  .section-contact {
+    padding: 25px;
+  }
+}
+/* ------------------
 contact us Page ends here 
 --------------------- */
 
